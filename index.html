@@ -1,98 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Portofolio</title>
-    <!----CSS link----->
-    <link rel="stylesheet" href="style.css"> 
-    <!-- =====BOX ICONS===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
 </head>
+
 <body>
-
- <!--===== HEADER =====-->
- <header class="l-header">
-  <nav class="nav bd-grid">
-      <div>
-          <a href="#" class="nav__logo">Mysite</a>
-      </div>
-
-      <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-              <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-              <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-              <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-          </ul>
-      </div>
-
-      <div class="nav__toggle" id="nav-toggle">
-          <i class='bx bx-menu'></i>
-      </div>
-  </nav>
-</header>
-
-<main class="l-main">
-  <!--===== HOME =====-->
-  <section class="home bd-grid" id="home">
-      <div class="home__data">
-          <h1 class="home__title">Welcome!<br>I'am <span class="home__title-color">Weni Sepriani</span><br> </h1>
-          <p class="about__text">Jika tidak punya orang lain sebagai alasan, maka jadilah alasan untuk orang lain.</p>
-          <p class="about__text">Jangan terlalu memaksakan untuk terjadi, hal indah butuh waktu untuk datang.</p>
-
-      </div>
-
-      <div class="home__social">
-          <a href="https://instagram.com/weniseprianiii__" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
-          <a href="https://twitter.com/Weniiii__" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-          <a href="https://github.com/wenispr2703" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-      </div>
-
-      <div class="home__img">    
-          <img src="./image/profile.png" alt="">
-      </div>
-  </section>
-
-  <!--===== ABOUT =====-->
-  <section class="about section " id="about">
-      <h2 class="section-title">About</h2>
-
-      <div class="about__container bd-grid">
-          <div class="about__img">
-              <img src="./image/About.jpeg" alt="">
+  <div id="app">
+    <!--Header-->
+    <div class="cover text-start">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-md-6 mb-3 text-white">
+            <h1>{{header.title}}</h1>
+            <p>{{header.description}}</p>
           </div>
-          
-          <div>
-              <h2 class="about__subtitle">Aku Weni Sepriani</h2>
-              <p class="about__text">Mahasiswi semester 4 Program Studi Sistem Informasi Universitas Ahamad Dahlan Yogyakarta. Aku berasal dari Lahat, Sumatera Selatan. Beberapa kegiatanku di semester 4 ini adalah: </p> 
-              <p class="about__text">1). Kuliah</p>
-              <p class="about__text">2). Praktikum</p>   
-              <p class="about__text">3). Inspiring Teacher UAD</p>  
-              <p class="about__text">4). Pramuka RAD UAD</p>  
-              <p class="about__text">5). Komunitas SBC Purwokerto</p>  
-          </div>                                   
+          <div class="col-md-6 mb-3 align-self-end text-center">
+            <img v-bind:src="header.imageProfile">
+          </div>
+        </div>
       </div>
-  </section>
-
-  <!--===== CONTACT =====-->
-  <section class="contact section" id="contact">
-      <h2 class="section-title">Contact</h2>
-
-      <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-              <input type="text" placeholder="Name" class="contact__input">
-              <input type="mail" placeholder="Email" class="contact__input">
-              <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-              <a href="mailto:seprianiweni@gmail.com" class="button">Send Email</a>
-          </form>
+      <!--end header-->
+      <!-- About-->
+      <div class="container ">
+        <div class="row text-center mb-3">
+          <div class="title wow fadeInDown mb-5">
+            <h2>About <span class="color"> Me</span></h2>
+            <div class="border"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row text-center mb-3">
+            <p>Seorang mahasiswi program studi Sistem Informasi Universitas Ahmad Dahlan angkatan tahun 2020. Masih
+              sangat baru dalam hal coding, masih perlu banyak belajar dan referensi. </p>
+          </div>
+        </div>
+        <div class="btn">
+          <div class="vertical-center">
+            <a href="https://drive.google.com/file/d/14h6_NI9zWAjXTeK3nIjHs4hnL06RToZM/view?usp=sharing"
+              class="btn">Download CV</a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="title wow fadeInDown mb-5">
+              <div class="border"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End About-->
+        <!-- articles -->
+        <section id="portofolio">
+          <div class="container">
+            <div class="row text-center mb-4">
+              <div class="col">
+                <h2>My Articles</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" v-for="item in portofolio">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img v-bind:src="item.image" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">{{item.title}}</h5>
+                        <p class="card-text">{{item.desc}}</p>
+                        <a href="#" class="btn">Read</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Akhir Articles -->
       </div>
-  </section>
-</main>
-<!--===== SCROLL REVEAL =====-->
-<script src="https://unpkg.com/scrollreveal"></script>
-<!---JS CDN Link---->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!--Custom JS File-->
-<script src="js.js"></script>
+      <!-- js -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/vue@3"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="./main.js"></script>
 
 </body>
+
 </html>
