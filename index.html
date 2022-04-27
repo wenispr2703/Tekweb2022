@@ -57,35 +57,42 @@
           </div>
         </div>
         <!-- End About-->
-        <!-- articles -->
-        <section id="portofolio">
-          <div class="container">
-            <div class="row text-center mb-4">
-              <div class="col">
-                <h2>My Articles</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col" v-for="item in portofolio">
-                <div class="card mb-3" style="max-width: 540px;">
-                  <div class="row g-0">
-                    <div class="col-md-4">
-                      <img v-bind:src="item.image" class="img-fluid rounded-start">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">{{item.title}}</h5>
-                        <p class="card-text">{{item.desc}}</p>
-                        <a href="#" class="btn">Read</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </section>
-        <!-- Akhir Articles -->
+        <!--Articles-->
+    <section id="portofolio">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <div class="border"></div>
+            <h2>My Articles</h2>
+            <div class="border"></div>
+          </div>
+        </div>
       </div>
+    <div class="container pt-3">
+      <div class="row">
+        
+        <div class="col-md-4" v-for="item in articles">
+          <div class="card">
+            <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{item.title}}</h5>
+              <p class="card-text">{{item.description}}</p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>   
+
+      </div>
+
+    </div>
+    <div>
+      {message}
+    </div>
+  </section>
+
+
+ 
+    <!--end articles-->
       <!-- js -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
