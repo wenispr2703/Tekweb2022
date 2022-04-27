@@ -39,7 +39,7 @@ Vue.createApp({
     };
   },
   mounted:()=>{    
-    axios.get("https://raw.githubusercontent.com/faridsurya/Vue-Axios-Basic/master/contents/header.json")
+    axios.get(" https://raw.githubusercontent.com/wenispr2703/tekweb2022/main/contents/header.json ")
     .then((res)=>{
       console.log(res.data);
     })
