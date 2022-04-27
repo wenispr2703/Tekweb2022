@@ -1,0 +1,17 @@
+{
+    "title": "Weni Sepriani",
+    "description":
+      "Be beautiful according to your own version.",
+    "social": {
+      "ig": {
+        "url": "https://instagram.com/weniseprianiii__",
+        "title": "weniseprianiii__"
+      },
+      "github": {
+        "url": "https://github.com/wenispr2703",
+        "title": "wenispr2703"
+      }
+    },
+    "imageProfile":
+    "./images/profile.png"
+  }
