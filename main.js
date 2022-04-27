@@ -23,17 +23,17 @@ Vue.createApp({
         {
           title: 'Pengaruh Musik Untuk Kesehatan Mental.',
           description: "Gemar mendengarkan musik dapat memberikan dampak bagi kesehatan.",
-          thumbnail: 'https://i.pinimg.com/564x/eb/53/b2/eb53b291af241664a3d106f749fdf161.jpg'
+          thumbnail: 'https://i.pinimg.com/564x/dc/f0/a6/dcf0a61507f82e29a7c98358ce0814b1.jpg'
         },
         {
           title: 'Pengaruh Musik Untuk Kesehatan Mental.',
           description: "Gemar mendengarkan musik dapat memberikan dampak bagi kesehatan.",
-          thumbnail: 'https://i.pinimg.com/564x/eb/53/b2/eb53b291af241664a3d106f749fdf161.jpg'
+          thumbnail: 'https://i.pinimg.com/564x/dc/f0/a6/dcf0a61507f82e29a7c98358ce0814b1.jpg'
         },
         {
           title: 'Pengaruh Musik Untuk Kesehatan Mental.',
           description: "Gemar mendengarkan musik dapat memberikan dampak bagi kesehatan.",
-          thumbnail: 'https://i.pinimg.com/564x/eb/53/b2/eb53b291af241664a3d106f749fdf161.jpg'
+          thumbnail: 'https://i.pinimg.com/564x/dc/f0/a6/dcf0a61507f82e29a7c98358ce0814b1.jpg'
         }
       ]
     };
