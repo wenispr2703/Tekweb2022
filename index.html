@@ -16,76 +16,80 @@
 <body>
   <div id="app">
     <!--Header-->
-    <div class="cover text-start">
+    <div class="cover">
+      <div class="masking"></div>
       <div class="container h-100">
         <div class="row h-100 align-items-center">
-          <div class="col-md-6 mb-3 text-white">
+          <div class="col-6 text-white">
             <h1>{{header.title}}</h1>
             <p>{{header.description}}</p>
+            <div class="social">
+              <a v-bind:href="header.social.ig.url"><i class="bi-instagram"></i> {{header.social.ig.title}}</a>
+              <a v-bind:href="header.social.github.url"><i class="bi-github"></i> {{header.social.github.title}}</a>
+            </div>
           </div>
-          <div class="col-md-6 mb-3 align-self-end text-center">
+          <div class="col-6 align-self-end text-center">
             <img v-bind:src="header.imageProfile">
           </div>
         </div>
+      </div>   
+    </div>
+    <!--end header-->
+    <div class="container ">
+      <div class="row text-center mb-3">
+        <div class="title wow fadeInDown mb-5">
+          <h2>About <span class="color"> Me</span></h2>
+          <div class="border"></div>
+        </div>
       </div>
-      <!--end header-->
-      <!-- About-->
-      <div class="container ">
+      <div class="row">
+        <div class="row text-center mb-3">
+          <p>{{header.desc}}</p>
+        </div>
+      </div>
+      <div class="btn">
+        <div class="vertical-center">
+          <a href="https://drive.google.com/file/d/14h6_NI9zWAjXTeK3nIjHs4hnL06RToZM/view?usp=sharing"
+            class="btn">Download CV</a>
+        </div>
+      </div>
+      <div class="container">
         <div class="row text-center mb-3">
           <div class="title wow fadeInDown mb-5">
-            <h2>About <span class="color"> Me</span></h2>
             <div class="border"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="row text-center mb-3">
-            <p>Seorang mahasiswi program studi Sistem Informasi Universitas Ahmad Dahlan angkatan tahun 2020. Masih
-              sangat baru dalam hal coding, masih perlu banyak belajar dan referensi. </p>
-          </div>
-        </div>
-        <div class="btn">
-          <div class="vertical-center">
-            <a href="https://drive.google.com/file/d/14h6_NI9zWAjXTeK3nIjHs4hnL06RToZM/view?usp=sharing"
-              class="btn">Download CV</a>
-          </div>
-        </div>
+      </div>
+      <!-- End About-->
+      <!--Articles-->
+      <section id="portofolio">
         <div class="container">
-          <div class="row text-center mb-3">
-            <div class="title wow fadeInDown mb-5">
+          <div class="row text-center mb-4">
+            <div class="col">
+              <h2>My Articles</h2>
               <div class="border"></div>
             </div>
           </div>
         </div>
-        <!-- End About-->
-        <!--Articles-->
-    <section id="portofolio">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col">
-            <h2>My Articles</h2>
-            <div class="border"></div>
-          </div>
-        </div>
-      </div>
-    <div class="container pt-3">
-      <div class="row"> 
-        <div class="col-md-4" v-for="item in articles">
-          <div class="card">
-            <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">{{item.title}}</h5>
-              <p class="card-text">{{item.description}}</p>
-              <a href="#" class="btn">Read More</a>
+        <div class="container pt-3">
+          <div class="row">
+            <div class="col-md-4" v-for="item in articles">
+              <div class="card">
+                <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.title}}</h5>
+                  <p class="card-text">{{item.description}}</p>
+                  <a :href="'/read.html?article='+item.content" class="btn" role="button">Read More</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>   
-      </div>
-    </div>
-  </section>
+        </div>
+      </section>
 
 
- 
-    <!--end articles-->
+
+      <!--end articles-->
       <!-- js -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
