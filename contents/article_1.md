@@ -5,6 +5,7 @@ _Oleh Weni Sepriani, dikutip dari Halodoc.com_
 Musik diyakini mampu memberikan banyak manfaat terhadap kesehatan mental seseorang. Musik membuat pikiran masuk dengan cepat ke dalam ruang emosional positif, sambil memberikan istirahat yang sangat dibutuhkan dari stresnya kehidupan. Penelitian juga menunjukkan bahwa otak mampu melepaskan dopamin ketika kita mendengarkan musik. Musik terkadang juga dijadikan sebagai penenang diri dan pelarian bagi orang yang sedang memiliki banyak pikiran. Mereka menganggap musik dapat memberikan ketenangan dan rasa nyaman dalam diri. Namun, itu semua juga bergantung pada jenis musik yang didengarkan. Musik bisa menjadi peningkat energi, relaksasi, dan mengubah suasana hati seseorang. Berikut ini, dilansir dari _Halodoc.com_, beberapa manfaat musik bagi kesehatan mental.
 
 Membantu Mengurangi Stres.
+
 Musik telah terbukti menjadi penolong untuk menurunkan stres yang dialami seseorang. Ini, terutama, mengacu pada musik yang bertujuan untuk meditasi, menenangkan pikiran dan mendorong relaksasi. Mendengarkan musik berdampak pada respons stres manusia, terutama sistem saraf otonom. Mereka yang mendengarkan musik cenderung pulih lebih cepat setelah mengalami stres. 
 
 Membantu Mengelola Rasa Sakit
