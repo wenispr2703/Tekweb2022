@@ -1,10 +1,10 @@
 [
-	{
-		"title":"Ruang Sepi dan Metamorfosis Ide",
-		"description": "'Cara terbaik untuk menjaga ethos adalah dengan memasukkan mereka kedalam dinamika.'",
-		"thumbnail": "https://images.unsplash.com/photo-1563991655280-cb95c90ca2fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-		"author": "Farid Suyra",
-		"published_at": "",
-		"content": "article_1.md"
-	}
+    {
+        "title":"Hidup bersama musik.",
+        "description":"Musik sebagai bagian penting dari proses dalam hidup saya.",
+        "thumbnail": "https://i.pinimg.com/originals/c8/f3/f1/c8f3f1577cab7914fd1d68fbdf36c2c8.jpg",
+        "author": "Weni Sepriani",
+        "published_at": "30 April 2022"
+	"content": "article_1.md"
+    }
 ]
