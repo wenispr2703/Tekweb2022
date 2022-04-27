@@ -1,7 +1,7 @@
 Vue.createApp({
   data() {
     return {
-      message: "MyProfilee",
+      message: "Hi!!",
       header: {
         title: "Weni Sepriani",
         description:
@@ -13,24 +13,38 @@ Vue.createApp({
           },
           github: {
             url: "https://github.com/wenispr2703",
-            title: "wenispr2703",
-          },
+            title: "wenispr2703"
+          }
         },
-        imageProfile: 'images/profile.png',
+        imageProfile:
+          "./images/profile.png",
       },
-      portofolio: [
+      articles: [
         {
-          title: 'Artikel 1',
-          desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate facilis, dolore sunt nemo necessitatibus similique fugiat dicta maxime atque quis!',
-          image: 'https://i.pinimg.com/originals/ae/ea/85/aeea85a49816cabad5e3809297c5c3f8.jpg'
+          title: 'Pengaruh Musik Untuk Kesehatan Mental.',
+          description: "Gemar mendengarkan musik dapat memberikan dampak bagi kesehatan.",
+          thumbnail: 'https://i.pinimg.com/564x/eb/53/b2/eb53b291af241664a3d106f749fdf161.jpg'
         },
         {
-          title: 'Artikel 2',
-          desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate facilis, dolore sunt nemo necessitatibus similique fugiat dicta maxime atque quis!',
-          image: 'https://i.pinimg.com/originals/1e/8e/47/1e8e47c874c0beabe158717fb623e11b.jpg'
+          title: 'Pengaruh Musik Untuk Kesehatan Mental.',
+          description: "Gemar mendengarkan musik dapat memberikan dampak bagi kesehatan.",
+          thumbnail: 'https://i.pinimg.com/564x/eb/53/b2/eb53b291af241664a3d106f749fdf161.jpg'
         },
-        
+        {
+          title: 'Pengaruh Musik Untuk Kesehatan Mental.',
+          description: "Gemar mendengarkan musik dapat memberikan dampak bagi kesehatan.",
+          thumbnail: 'https://i.pinimg.com/564x/eb/53/b2/eb53b291af241664a3d106f749fdf161.jpg'
+        }
       ]
     };
   },
+  mounted:()=>{    
+    axios.get("https://raw.githubusercontent.com/faridsurya/Vue-Axios-Basic/master/contents/header.json")
+    .then((res)=>{
+      console.log(res.data);
+    })
+    .catch((error)=>{
+      console.log(error);
+    })
+  }
 }).mount("#app");
