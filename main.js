@@ -13,7 +13,7 @@ Vue.createApp({
           },
           github: {
             url: "https://github.com/wenispr2703",
-            title: " wenispr2703"
+            title: " wenispr2703 ",
           }
         },
         imageProfile:
