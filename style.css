@@ -35,6 +35,16 @@ p {
   font-size: 20px;
   position: relative;
 }
+.jarak{
+  padding:0px 20px;
+  color:#3b3838;
+}
+.bg-primary{background-color:rgb(156, 138, 114)!important}
+.bg-primary:focus,.bg-primary:hover{background-color:rgb(145, 112, 70)!important}
+.bg-secondary{background-color:rgb(172, 153, 129)!important}
+.bg-secondary:focus,.bg-secondary:hover{background-color:rgb(145, 112, 70)!important}
+.bg-danger{background-color:rgb(196, 173, 143)!important;}
+.bg-danger:focus,.bg-danger:hover{background-color:rgb(145, 112, 70)!important;}
 
 .btn a {
   background-color: rgb(145, 112, 70);
