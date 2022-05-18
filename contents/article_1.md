@@ -1,8 +1,8 @@
-# Hidup bersama musik
+## Hidup bersama musik ##
 
 _Oleh Weni Sepriani, dikutip dari Halodoc.com_
 
-[Baca Artikel Asli](https://www.halodoc.com/artikel/gemar-musik-ini-manfaatnya-untuk-kesehatan-mental "artikel asli")
+[Baca Artikel Asli](https://www.halodoc.com/artikel/gemar-musik-ini-manfaatnya-untuk-kesehatan-mental "artikel asli") 
 <hr>
     Musik diyakini mampu memberikan banyak manfaat terhadap kesehatan mental seseorang. Musik membuat pikiran masuk dengan cepat ke dalam ruang emosional positif, sambil memberikan istirahat yang sangat dibutuhkan dari stresnya kehidupan. Penelitian juga menunjukkan bahwa otak mampu melepaskan dopamin ketika kita mendengarkan musik. Musik terkadang juga dijadikan sebagai penenang diri dan pelarian bagi orang yang sedang memiliki banyak pikiran. Mereka menganggap musik dapat memberikan ketenangan dan rasa nyaman dalam diri. Namun, itu semua juga bergantung pada jenis musik yang didengarkan. Musik bisa menjadi peningkat energi, relaksasi, dan mengubah suasana hati seseorang. Berikut ini, dilansir dari _Halodoc.com_, beberapa manfaat musik bagi kesehatan mental.
 <hr>
