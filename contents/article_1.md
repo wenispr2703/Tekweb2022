@@ -1,7 +1,8 @@
 # Hidup bersama musik
 
-### _Oleh Weni Sepriani, dikutip dari Halodoc.com_
-###### [Baca Artikel Asli](https://www.halodoc.com/artikel/gemar-musik-ini-manfaatnya-untuk-kesehatan-mental "artikel asli")
+_Oleh Weni Sepriani, dikutip dari Halodoc.com_
+
+[Baca Artikel Asli](https://www.halodoc.com/artikel/gemar-musik-ini-manfaatnya-untuk-kesehatan-mental "artikel asli")
 <hr>
     Musik diyakini mampu memberikan banyak manfaat terhadap kesehatan mental seseorang. Musik membuat pikiran masuk dengan cepat ke dalam ruang emosional positif, sambil memberikan istirahat yang sangat dibutuhkan dari stresnya kehidupan. Penelitian juga menunjukkan bahwa otak mampu melepaskan dopamin ketika kita mendengarkan musik. Musik terkadang juga dijadikan sebagai penenang diri dan pelarian bagi orang yang sedang memiliki banyak pikiran. Mereka menganggap musik dapat memberikan ketenangan dan rasa nyaman dalam diri. Namun, itu semua juga bergantung pada jenis musik yang didengarkan. Musik bisa menjadi peningkat energi, relaksasi, dan mengubah suasana hati seseorang. Berikut ini, dilansir dari _Halodoc.com_, beberapa manfaat musik bagi kesehatan mental.
 <hr>
@@ -25,4 +26,5 @@ Mengurangi Gejala Depresi.
 
 Depresi yang tidak ditangani dapat menjadi masalah serius, karena bisa membuat seseorang cenderung bertindak tanpa berpikir panjang, misalnya melakukan percobaan bunuh diri atau benar-benar mengakhiri hidupnya. Namun, ini bisa diatasi dengan mendengarkan musik. Selain mengurangi depresi dan kecemasan pada mereka yang mengidap demensia, stroke, dan Penyakit Parkinson, musik tidak menunjukkan efek samping negatif, alias aman digunakan sebagai terapi. 
 
+<hr>
 Nah, itu tadi beberapa manfaat musik untuk kesehatan mental. Kapan saja kamu merasakan adanya gejala yang berkaitan dengan kondisi psikologis, putar saja lagu-lagu kesukaanmu, cari lagu-lagu bernada positif untuk membangun kembali semangatmu, meningkatkan suasana hatimu, juga mengobati rasa sakit dan sedih serta stres yang sedang dialami. Murah dan mudah, inilah musik untuk menunjang kebahagiaanmu. 
