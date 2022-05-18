@@ -21,7 +21,7 @@
 	"num": "3",
         "title":"Artikel ketiga saya",
         "description":"Ini diisi nanti yaa",
-        "thumbnail": "https://i.pinimg.com/564x/51/6f/21/516f21b26c4c18b13a522d2be418e460.jpg",
+        "thumbnail": "https://raw.githubusercontent.com/wenispr2703/tekweb2022/main/images/About.png",
         "author": "Weni Sepriani",
         "published_at": "30 April 2022",
 	"content": "article_3.md"
