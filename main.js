@@ -1,3 +1,4 @@
+let apiUrl = "https://api.wenisepriani.my.id/index.php/";
 Vue.createApp({
   data() {
     return {
@@ -26,9 +27,7 @@ Vue.createApp({
   methods: {
     getHeaderData() {
       axios
-        .get(
-          "https://raw.githubusercontent.com/wenispr2703/tekweb2022/main/contents/header.json"
-        )
+        .get(apiUrl+"users/1")
         .then((res) => {
           this.header = res.data;
           this.getArticles();
