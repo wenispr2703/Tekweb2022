@@ -5,7 +5,7 @@
 ## Users
 
 
-### Menampilkan data semua pengguna
+### Menampilkan data users
 ```
 GET: /users
 
@@ -25,7 +25,7 @@ response:
 }
 ]
 ```
-### Menampilkan data pengguna dengan ```id``` tertentu 
+### Menampilkan data user dengan ```id``` tertentu 
 ```
 GET: /users/[id]
 
@@ -40,7 +40,7 @@ response:
     "avatar_url": ""
 }
 ```
-### Menambahkan data users
+### Menambahkan data user
 ```
 POST: /users
 
@@ -85,7 +85,7 @@ true    //if true
 false   //if false
 ```
 ## ARTICLES
-### Menampilkan seluruh artikel
+### Menampilkan articles
 ```
 GET: /articles
 
@@ -104,7 +104,7 @@ response:
 }
 ]
 ```
-### Menampilkan articles berdasarkan ```id```
+### Menampilkan article berdasarkan ```id```
 ```
 GET: /articles/[id]
 
@@ -118,7 +118,7 @@ response:
     "content": ""
 }
 ```
-### Menambahkan articles
+### Menambahkan article
 ```
 POST: /articles
 
@@ -135,7 +135,7 @@ response:
 true    //if true
 false   //if false
 ```
-### Mengubah articles
+### Mengubah article
 ```
 PUT: /articles
 
@@ -153,7 +153,7 @@ response:
 true    //if true
 false   //if false
 ```
-### Menghapus articles
+### Menghapus article
 ```
 DELETE: /articles
 
