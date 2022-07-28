@@ -1,4 +1,4 @@
-## Ini Artikel Ketiga ku ##
+## Ini Artikel Lain ku ##
 _Oleh Weni Sepriani_
 
 <hr>
